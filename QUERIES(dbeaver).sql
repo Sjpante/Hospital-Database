@@ -31,7 +31,7 @@ JOIN MEDICAL_CONSULTANT mc ON p.ConsultantID = mc.StaffID
 ORDER BY wg.WingName, w.WardNumber, p.PatientID;
 
 -- =============================================
--- Query C: Grouping 
+-- Query C: GROUP BY
 -- =============================================
 
 SELECT
@@ -46,4 +46,5 @@ p.PatientID,
 p.FirstName,
 p.LastName
 ORDER BY PrescriptionCount DESC;
+
 
