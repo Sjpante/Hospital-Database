@@ -1,6 +1,6 @@
 
 -- =============================================
--- Query A: Retrieve data from a single table
+-- Query A: Single table
 -- =============================================
 
 SELECT
@@ -13,7 +13,7 @@ FROM PATIENT
 ORDER BY AdmissionDate DESC;
 
 -- =============================================
--- Query B: Retrieve data from multiple tables
+-- Query B: Multiple tables
 -- =============================================
 
 SELECT
@@ -46,5 +46,6 @@ p.PatientID,
 p.FirstName,
 p.LastName
 ORDER BY PrescriptionCount DESC;
+
 
 
